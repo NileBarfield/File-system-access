@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Browser</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>File Browser</h1>
+        <div class = "buttons" id = "buttons">
+            <button id="openFile"> Open File </button>
+            <button id="openFolder"> Open Folder</button>
+            <button id="saveButton"> Save </button>
+            <button id="saveAsButton"> Save as</button>
+            <button id="test"> test</button>
+
+        </div>
+
+        <div class = "container" id ="fileNames">
+                <div id="dirContent">
+                    <ul class = "blist"></ul>
+                </div>
+        </div>
+
+        <div class="container" id ="mainText">
+            <!--<p id="fileContent"></p>-->
+            <pre id="fileContent" contenteditable></pre>
+        </div>
+        
+        
+
+        <script src="./main.js"></script>
+        
+    </body>
+</html>
